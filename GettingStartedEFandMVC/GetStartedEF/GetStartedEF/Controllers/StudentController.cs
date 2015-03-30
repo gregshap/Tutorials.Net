@@ -79,7 +79,7 @@ namespace GetStartedEF.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,LastName,FirstMidName,EnrollmentDate")] Student student)
+        public ActionResult Edit([Bind(Include = "ID,LastName,FirstMidName,EnrollmentDate,IsFullTime")] Student student)
         {
             if (ModelState.IsValid)
             {

@@ -9,6 +9,7 @@ namespace GregshapUniversity.Models
         public string LastName { get; set; }
         public string FirstMidName { get; set; }
         public DateTime EnrollmentDate { get; set; }
+        public bool IsFullTime { get; set; }
 
         public virtual ICollection<Enrollment> Enrollments { get; set; }
     }
