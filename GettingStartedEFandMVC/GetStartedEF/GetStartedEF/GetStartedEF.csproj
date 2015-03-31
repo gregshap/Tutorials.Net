@@ -124,9 +124,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201503302009398_InitialCreate.cs" />
-    <Compile Include="Migrations\201503302009398_InitialCreate.Designer.cs">
-      <DependentUpon>201503302009398_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\201503302033170_InitialCreate.cs" />
+    <Compile Include="Migrations\201503302033170_InitialCreate.Designer.cs">
+      <DependentUpon>201503302033170_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
@@ -143,6 +143,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\GregshapU.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -187,8 +188,8 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201503302009398_InitialCreate.resx">
-      <DependentUpon>201503302009398_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201503302033170_InitialCreate.resx">
+      <DependentUpon>201503302033170_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -1,9 +1,8 @@
-using GregshapUniversity.Models;
-
 namespace GregshapUniversity.Migrations
 {
     using System;
     using System.Collections.Generic;
+    using GregshapUniversity.Models;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;

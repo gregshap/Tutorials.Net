@@ -1,4 +1,4 @@
-namespace GetStartedEF.Migrations
+namespace GregshapUniversity.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;
